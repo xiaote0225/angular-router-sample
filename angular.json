@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-router-sample"
+    }
+  },
+  "defaultProject": "angular-router-sample",
+  "cli": {
+    "analytics": "c341b005-bb51-4ac4-88bb-795605549552"
+  }
 }
