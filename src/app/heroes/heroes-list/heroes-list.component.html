@@ -1,0 +1,23 @@
+<h3>HEROES</h3>
+<p>Get your heroes here</p>
+
+<button routerLink="/sidekicks">Go to sidekicks</button>
+
+
+<h2>HEROES</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes"
+    [class.selected]="hero === selectedHero"
+    (click)="onSelect(hero)">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  </li>
+</ul>
+
+ <!-- <app-hero-detail [hero]="selectedHero"></app-hero-detail> -->
+
+
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
